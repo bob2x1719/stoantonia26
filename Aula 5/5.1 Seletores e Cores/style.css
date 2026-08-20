@@ -1,0 +1,24 @@
+/* Fundo suave e cor hexadecimal */
+body {
+    background-color: #f0f4f8;
+  }
+  
+  /* Cores de Texto */
+  h1 {
+    color: blue;
+  }
+  
+  p {
+    color: #333333;
+  }
+  
+  /* Seletor de Classe */
+  .destaque {
+    color: red;
+  }
+  
+  /* Seletor de ID com cor em RGB */
+  #principal {
+    background-color: rgb(220, 230, 242);
+    padding: 10px;
+  }
