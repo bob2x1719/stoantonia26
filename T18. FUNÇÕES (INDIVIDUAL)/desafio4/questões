@@ -1,0 +1,20 @@
+O que são funções?
+São blocos de código reutilizáveis e organizados que executam uma tarefa específica dentro de um programa. Elas podem receber valores de entrada (parâmetros), processar esses dados e devolver um resultado, evitando a repetição de código e facilitando a leitura e a manutenção do sistema.
+
+O que uma função retorna quando não usa o comando return?
+Em PHP, quando uma função chega ao fim sem executar um comando return (ou quando executa apenas return; sem nenhum valor associado), ela retorna automaticamente o valor null (NULL).
+
+Qual é a função chr?
+A função chr($codigo) converte um número inteiro (código da tabela ASCII, geralmente de 0 a 255) no caractere correspondente a esse código.
+
+Exemplo: chr(65) retorna "A"; chr(97) retorna "a".
+
+O que são funções nativas?
+São funções que já vêm prontas e integradas na própria linguagem de programação (no núcleo do PHP), estando disponíveis para uso imediato sem que o programador precise criá-las.
+
+Exemplos: strlen() (tamanho de texto), date() (data e hora), count() (contagem de itens em arrays) e a própria chr().
+
+O que são funções ambiente?
+São funções voltadas para consultar ou configurar informações sobre o ambiente de execução onde o código está rodando — como variáveis de ambiente do servidor, sistema operacional, diretórios temporários e configurações do próprio PHP.
+
+Exemplos: getenv() (lê uma variável de ambiente), putenv() (define uma variável de ambiente), phpinfo() (exibe informações completas do ambiente PHP/servidor) e phpversion() (retorna a versão atual do PHP).
